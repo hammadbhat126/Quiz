@@ -59,12 +59,13 @@
         android:layout_marginTop="20dp"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
-<androidx.appcompat.widget.AppCompatEditText
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:hint="Name"
-    android:textColor="#363A43"
-    android:textColorHint="#7A8089"/>
+        <androidx.appcompat.widget.AppCompatEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:textColor="#363A43"
+            android:textColorHint="#7A8089"
+            tools:ignore="TouchTargetSizeCheck" />
 
     </com.google.android.material.textfield.TextInputLayout>
 <Button
