@@ -9,10 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
-        <activity android:name=".MainActivity"
+        <activity
+            android:name=".QuizQuestionActivity"
+            android:screenOrientation="fullSensor">
+        </activity>
+        <activity
+            android:name=".MainActivity"
             android:screenOrientation="fullSensor"
-            android:windowSoftInputMode="adjustResize"
-            >
+            android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

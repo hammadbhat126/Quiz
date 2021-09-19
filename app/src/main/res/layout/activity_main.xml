@@ -18,8 +18,7 @@
         android:layout_marginBottom="30dp"
         android:textStyle="bold"
         android:textSize="30sp"
-        android:textColor="@android:color/white"
-       />
+        android:textColor="@android:color/white"/>
 
 <androidx.cardview.widget.CardView
     android:layout_width="match_parent"
@@ -27,7 +26,7 @@
     android:layout_marginStart="20dp"
     android:layout_marginEnd="20dp"
     android:background="@android:color/white"
-    app:cardCornerRadius="8dp"
+    app:cardCornerRadius="50dp"
     app:cardElevation="5dp">
 
 <LinearLayout
@@ -60,6 +59,7 @@
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
         <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/et_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Name"
@@ -69,13 +69,14 @@
 
     </com.google.android.material.textfield.TextInputLayout>
 <Button
-    android:id="@+id/start"
+    android:id="@+id/btn_start"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginTop="16dp"
     android:textColor="#FFFFFF"
     android:textSize="18sp"
-    android:background="@color/design_default_color_primary"
+
+    android:background="@color/white"
     android:text="Start"/>
 </LinearLayout>
 </androidx.cardview.widget.CardView>
